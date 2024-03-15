@@ -52,6 +52,7 @@
         height: 32px;
     }
     .global-footer__upper img {
+        width: 34px;
         margin-right: 15px;
     }
     .global-footer__lower {
@@ -66,6 +67,15 @@
         width: 100%;
         height: 32px;
     }
+    @media (max-width: 1148px) {
+        .global-footer__upper {
+            bottom: 45px;
+        }
+        .global-footer__upper img{
+            width: 25px;
+            margin-right: 10px;
+        }
+    }
     @media (max-width: 767px) {
         h1 {
             font-size: 24px;
@@ -74,10 +84,13 @@
             font-size: 14px;
         }
         small {
-            font-size: 12px;
+            font-size: 10px;
         }
         .global-header {
             height: 51px;
+        }
+        .global-footer__lower {
+            bottom: 15px;
         }
     }
 </style>
@@ -92,13 +105,13 @@
     <footer class="global-footer" role="contentinfo">
         <div class="global-footer__upper">
             <a href="https://www.facebook.com/Pokemon.Official.Taiwan/" target="_blank">
-                <img src="icon/facebook.png" alt="Facebook" width="34">
+                <img src="icon/facebook.png" alt="Facebook">
             </a>
             <a href="https://www.youtube.com/channel/UCUsB9KTwSGgPlIARzdaKb_Q/" target="_blank">
-                <img src="icon/youtube.png" alt="Youtube" width="34">
+                <img src="icon/youtube.png" alt="Youtube">
             </a>
             <a href="https://vt.tiktok.com/ZSJVSayaq/" target="_blank">
-                <img src="icon/tiktok.png" alt="Tiktok" width="34">
+                <img src="icon/tiktok.png" alt="Tiktok">
             </a>
         </div>
         <small class="global-footer__lower">
